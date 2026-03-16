@@ -1,0 +1,13 @@
+# Виртуальное окружение
+venv/
+env/
+.env/
+myenv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python кэш
+__pycache__/
+*.pyc
