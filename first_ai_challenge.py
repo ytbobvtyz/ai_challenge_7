@@ -24,7 +24,7 @@ def ask_ai(user_question):
     try:
         # Отправляем запрос. Модель можно поменять на любую из списка!
         completion = client.chat.completions.create(
-            model="openrouter/free",  #  "google/gemini-2.0-flash-exp:free" или "deepseek/deepseek-chat"
+            model="stepfun/step-3.5-flash:free",  #  "google/gemini-2.0-flash-exp:free" или "deepseek/deepseek-chat"
             messages=[
                 {"role": "user", "content": user_question}
             ],
@@ -41,4 +41,4 @@ def ask_ai(user_question):
 # 5. Запускаем
 if __name__ == "__main__":
     # Простой тестовый вопрос
-    ask_ai("Зачем я вообще ввязался в этот AI Challange? Ответь мне, мастер Йода!")
+    ask_ai("Модель, назови себя и свои возможные параметры настроек!")
