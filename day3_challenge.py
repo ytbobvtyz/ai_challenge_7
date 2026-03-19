@@ -14,7 +14,7 @@ client = OpenAI(
         "X-Title": "AI Challenge Day 3 - Honest Experiment"
     }
 )
-
+d
 MODEL = "arcee-ai/trinity-large-preview:free" # nvidia/nemotron-3-nano-30b-a3b:free, stepfun/step-3.5-flash:free, arcee-ai/trinity-large-preview:free,
 TASK = """Жили-были три брата: Мо, Ко и Ло. 
 Мо был богат и знаменит.
